@@ -3,6 +3,9 @@
 *.tfstate.*
 .terraform.lock.hcl
 
+github-actions-key
+github-actions-key.pub
+*.pem
 # AWS
 *.pem
 
