@@ -1,0 +1,13 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# AWS
+*.pem
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
