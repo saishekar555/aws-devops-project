@@ -1,16 +1,90 @@
-.terraform/
+# Terraform
 *.tfstate
 *.tfstate.*
+*.tfvars
+*.tfvars.json
+!example.tfvars
+.terraform/
 .terraform.lock.hcl
+crash.log
+override.tf.json
+*_override.tf
+*_override.tf.json
+*_override.hcl
+.terraformrc
+terraform.rc
+plan.tfplan
 
-github-actions-key
-github-actions-key.pub
-*.pem
-# AWS
-*.pem
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
 
-# VS Code
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+build/
+dist/
+*.egg-info/
+.gradle/
+
+# Git
+.git/
+.gitmodules
+
+# Terraform cloud
+.terraform.cloud/
+
+# Secrets
+*.key
+*.pem
+*.ppk
+private/
+secrets/
+*.bak
 
 # Logs
 *.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# AWS
+.aws/
+aws-credentials.txt
+
+# Misc
+.cache/
+.tmp/
+temp/
+target/
